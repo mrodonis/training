@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  tech: MyString
+  course: 
+
+two:
+  tech: MyString
+  course: 

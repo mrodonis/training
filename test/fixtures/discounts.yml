@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  discount_level: 
+  percentage: 1.5
+  end_date: 2013-06-22
+
+two:
+  discount_level: 
+  percentage: 1.5
+  end_date: 2013-06-22

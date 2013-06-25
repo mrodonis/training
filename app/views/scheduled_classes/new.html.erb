@@ -1,0 +1,47 @@
+<h1>New scheduled_class</h1>
+
+<% form_for(@scheduled_class) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :course_id %><br />
+    <%= f.text_field :course_id %>
+  </p>
+  <p>
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </p>
+  <p>
+    <%= f.label :end_date %><br />
+    <%= f.date_select :end_date %>
+  </p>
+  <p>
+    <%= f.label :start_time %><br />
+    <%= f.time_select :start_time %>
+  </p>
+  <p>
+    <%= f.label :end_time %><br />
+    <%= f.time_select :end_time %>
+  </p>
+  <p>
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </p>
+  <p>
+    <%= f.label :instructor %><br />
+    <%= f.text_field :instructor %>
+  </p>
+  <p>
+    <%= f.label :seats_taken %><br />
+    <%= f.text_field :seats_taken %>
+  </p>
+  <p>
+    <%= f.label :seats_max %><br />
+    <%= f.text_field :seats_max %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', scheduled_classes_path %>

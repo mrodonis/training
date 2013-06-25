@@ -1,0 +1,43 @@
+<p>
+  <b>Title:</b>
+  <%=h @course.title %>
+</p>
+
+<p>
+  <b>Number:</b>
+  <%=h @course.number %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%=h @course.duration %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @course.price %>
+</p>
+
+<p>
+  <b>Outline:</b>
+  <%=h @course.outline %>
+</p>
+
+<p>
+  <b>Discount level:</b>
+  <%=h @course.discount.discount_level %>
+</p>
+
+<p>
+  <b>Provider:</b>
+  <%=h @course.provider %>
+</p>
+
+<p>
+  <b>Technology:</b>
+  <%=h @course.technology.tech %>
+</p>
+
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>

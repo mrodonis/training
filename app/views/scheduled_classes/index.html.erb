@@ -1,0 +1,36 @@
+<h1>Listing scheduled_classes</h1>
+
+<table>
+  <tr>
+    <th>Course</th>
+    <th>Start date</th>
+    <th>End date</th>
+    <th>Start time</th>
+    <th>End time</th>
+    <th>Location</th>
+    <th>Instructor</th>
+    <th>Seats taken</th>
+    <th>Seats max</th>
+  </tr>
+
+<% @scheduled_classes.each do |scheduled_class| %>
+  <tr>
+    <td><%=h scheduled_class.course_id %></td>
+    <td><%=h scheduled_class.start_date %></td>
+    <td><%=h scheduled_class.end_date %></td>
+    <td><%=h scheduled_class.start_time %></td>
+    <td><%=h scheduled_class.end_time %></td>
+    <td><%=h scheduled_class.location %></td>
+    <td><%=h scheduled_class.instructor %></td>
+    <td><%=h scheduled_class.seats_taken %></td>
+    <td><%=h scheduled_class.seats_max %></td>
+    <td><%= link_to 'Show', scheduled_class %></td>
+    <td><%= link_to 'Edit', edit_scheduled_class_path(scheduled_class) %></td>
+    <td><%= link_to 'Destroy', scheduled_class, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New scheduled_class', new_scheduled_class_path %>

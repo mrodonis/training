@@ -1,0 +1,18 @@
+<p>
+  <b>Discount-level:</b>
+  <%=h @discount.discount_level %>
+</p>
+
+<p>
+  <b>Percentage:</b>
+  <%=h @discount.percentage %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%=h @discount.end_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_discount_path(@discount) %> |
+<%= link_to 'Back', discounts_path %>

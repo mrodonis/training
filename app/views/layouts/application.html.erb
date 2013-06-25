@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" class="js">
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+
+<title>Training Essentials | Quality Authorized Technical Training</title>
+
+<link id="all-css-0" href="all-css.css" rel="stylesheet" type="text/css" media="all" />
+<link id="all-css-2" href="all-css1.css" rel="stylesheet" type="text/css" media="all"/>
+<link id="further-lato-css" href="further-lato-css.css" rel="stylesheet" type="text/css" media="all"/>
+<link id="print-css-2" href="global-print.css" rel="stylesheet" type="text/css" media="print"/>
+
+<%= stylesheet_link_tag "all-css",:media => "all" %>
+<%= stylesheet_link_tag "all-css1",:media => "all" %>
+  <%= stylesheet_link_tag "further-lato-css", :media => "all" %>
+<script type="text/javascript" src="main.js"></script>
+
+<%=  javascript_include_tag "main.js" %>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f5f5f5; }
+</style>
+
+<meta name="application-name" content="Training Essentials" />
+<meta name="msapplication-window" content="width=device-width;height=device-height">
+<meta name="msapplication-tooltip" content="Premium Authorized Training">
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+
+</head>
+
+<body class="home blog custom-background list-view highlander-enabled highlander-light infinite-scroll">
+<div id="page" class="hfeed site">
+
+  <header id="masthead" class="site-header clearfix masthead-fixed" role="banner">
+ <!-- NAVIGATION PARTIAL ------------------------------>
+     <%= render :partial => 'shared/navigation' %>
+ </header>
+ 
+ <!-- #masthead .site-header -->
+ <div id="main" class="site-main clearfix" style="margin-top: 48px;">
+  <div class="front-page-content-wrapper">
+   <div class="front-page-content-main">
+    <div class="featured-content-wrapper">
+     <div id="featured-content" class="featured-content clearfix">
+     
+     <!------------------------------- Featured Category Item #1 ------------------------------->
+
+<!------------------------------- Featured Category Item #3 END ------------------------------->
+</div></div>        	
+
+
+<!------------------------------- FRONT PAGE CONTENT AREA!! ------------------------------->
+<div class="front-page-content-area clearfix">
+ <div id="primary" class="content-area no-sidebar">
+  <div class="front-page-content-area clearfix">
+	<div id="primary" class="content-area no-sidebar">
+	  <div id="content" class="site-content" role="main">
+	
+<!-- ARTICLE 1 (OR MAIN PAGE INFO) -->
+        <%= render :partial => 'shared/maincontent' %>
+<!-- END OF POST #1 or MAIN PAGE INFO -->
+    
+	
+    
+    
+    <!--------------------------------- RIGHT SIDE QUICK NAV - POSTS FOR VIDEOS / PICTURES / ETC. --------------------------------->
+<nav role="navigation" id="nav-below" class="site-navigation paging-navigation">
+		<h1 class="assistive-text">Post navigation</h1>
+
+	
+		<div class="pagination loop-pagination">
+		<span class="page-numbers current">1</span>
+<a class="page-numbers" href="/?paged=2">2</a>
+<a class="next page-numbers" href="/?paged=2">Next →</a>		</div>
+	
+	</nav><!-- #nav-below -->
+					<div id="infinite-handle">
+                    </div>
+                </div><!-- #content .site-content -->
+			</div><!-- #primary .content-area -->
+
+<!--------------------------------- RIGHT SIDE QUICK NAV - POSTS FOR VIDEOS / PICTURES / ETC. --------------------------------->			
+
+</div>
+<!-- END BOTTOM OF MIDDLE AREA -->
+
+</div>
+<!-- .front-page-content-main -->
+
+</div>
+</div>
+</div>
+<!-- .front-page-content-wrapper -->
+
+
+<!-- --------------------------------LEFT NAVIGATION MENU----------------------- -->
+<%=  render :partial => 'shared/leftnav' %>
+<!-- END OF LEFT MENU NAVIGATION -->
+</div>
+
+<!-- End of Main Site -->
+</div>
+
+</body>
+</html>

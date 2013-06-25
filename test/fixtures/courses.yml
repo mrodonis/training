@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  number: MyString
+  duration: 9.99
+  price: 9.99
+  outline: MyText
+  category: MyString
+  technology: MyString
+  discount_level: MyString
+  provider: MyString
+
+two:
+  title: MyString
+  number: MyString
+  duration: 9.99
+  price: 9.99
+  outline: MyText
+  category: MyString
+  technology: MyString
+  discount_level: MyString
+  provider: MyString

@@ -1,0 +1,48 @@
+<p>
+  <b>Course:</b>
+  <%=h @scheduled_class.course_id %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%=h @scheduled_class.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%=h @scheduled_class.end_date %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%=h @scheduled_class.start_time %>
+</p>
+
+<p>
+  <b>End time:</b>
+  <%=h @scheduled_class.end_time %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%=h @scheduled_class.location %>
+</p>
+
+<p>
+  <b>Instructor:</b>
+  <%=h @scheduled_class.instructor %>
+</p>
+
+<p>
+  <b>Seats taken:</b>
+  <%=h @scheduled_class.seats_taken %>
+</p>
+
+<p>
+  <b>Seats max:</b>
+  <%=h @scheduled_class.seats_max %>
+</p>
+
+
+<%= link_to 'Edit', edit_scheduled_class_path(@scheduled_class) %> |
+<%= link_to 'Back', scheduled_classes_path %>

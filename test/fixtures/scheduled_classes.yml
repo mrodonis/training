@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  course: 
+  start_date: 2013-06-22
+  end_date: 2013-06-22
+  start_time: 2013-06-22 00:45:41
+  end_time: 2013-06-22 00:45:41
+  location: MyString
+  instructor: MyString
+  seats_taken: 
+  seats_max: 
+
+two:
+  course: 
+  start_date: 2013-06-22
+  end_date: 2013-06-22
+  start_time: 2013-06-22 00:45:41
+  end_time: 2013-06-22 00:45:41
+  location: MyString
+  instructor: MyString
+  seats_taken: 
+  seats_max: 

@@ -1,0 +1,24 @@
+<h1>Listing discounts</h1>
+
+<table>
+  <tr>
+    <th>Discount_level</th>
+    <th>Percentage</th>
+    <th>End date</th>
+  </tr>
+
+<% @discounts.each do |discount| %>
+  <tr>
+    <td><%=h discount.discount_level %></td>
+    <td><%=h discount.percentage %></td>
+    <td><%=h discount.end_date %></td>
+    <td><%= link_to 'Show', discount %></td>
+    <td><%= link_to 'Edit', edit_discount_path(discount) %></td>
+    <td><%= link_to 'Destroy', discount, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New discount', new_discount_path %>
