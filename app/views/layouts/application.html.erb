@@ -9,8 +9,7 @@
 
 <%= stylesheet_link_tag "all-css",:media => "all" %>
 <%= stylesheet_link_tag "all-css1",:media => "all" %>
-  <%= stylesheet_link_tag "further-lato-css", :media => "all" %>
-<script type="text/javascript" src="main.js"></script>
+<%= stylesheet_link_tag "further-lato-css", :media => "all" %>
 
 <%=  javascript_include_tag "main.js" %>
 <style type="text/css" id="custom-background-css">
@@ -46,6 +45,11 @@ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!
      <div id="featured-content" class="featured-content clearfix">
      
      <!------------------------------- Featured Category Item #1 ------------------------------->
+       <% if (@featured_items == TRUE) %>
+           <%= render :partial => 'shared/featured1' %>
+           <%= render :partial => 'shared/featured2' %>
+           <%= render :partial => 'shared/featured3' %>
+       <% end %>
 
 <!------------------------------- Featured Category Item #3 END ------------------------------->
 </div></div>        	
@@ -59,7 +63,8 @@ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!
 	  <div id="content" class="site-content" role="main">
 	
 <!-- ARTICLE 1 (OR MAIN PAGE INFO) -->
-        <%= render :partial => 'shared/maincontent' %>
+        <%=  render :partial => 'shared/maincontent' %>
+        <%= # yield %>
 <!-- END OF POST #1 or MAIN PAGE INFO -->
     
 	
