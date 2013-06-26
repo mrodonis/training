@@ -1,15 +1,17 @@
-# ARTICLE 1 (OR MAIN PAGE INFO)
+<!--  ARTICLE 1 (OR MAIN PAGE INFO)    -->
 
 <article id="post-229" class="post-229 post type-post status-publish format-standard sticky hentry category-foods tag-announcement tag-beautiful clearfix">
+  <% if (@logo_img) %>
   <a title="Training Essentials - Why Us?" class="attachment-featured-thumbnail">
-    <% if (!@logo_img.nil?) %>
         <%= image_tag @logo_img, :size => @logo_size, :class => "attachment-featured-thumbnail-large wp-post-image" %>
-    <% end %>
   </a>
+  <% end %>
 
   <header class="entry-header">
     <div class="entry-meta">
-      <span class="cat-links"><a title="Training">Quality Authorized Microsoft Training</a></span>
+      <span class="cat-links"><a title="Training">
+        <%= @meta_title %>
+      </a></span>
     </div>
 
     <h1 class="entry-title">

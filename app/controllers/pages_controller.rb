@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-    @featured_items = TRUE
+    @featured_items = "true"
     @meta_title = "Quality Authorized Training"
     @entry_title = "<b>TRAINING ESSENTIALS</b> | DISCOUNT QUALITY AUTHORIZED TRAINING"
   end
