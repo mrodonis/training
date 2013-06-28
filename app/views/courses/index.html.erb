@@ -21,7 +21,7 @@
     <td><%=h course.outline %></td>
     <td><%=h course.discount.discount_level %></td>
     <td><%=h course.provider %></td>
-    <td><%=h course.technology.tech %></td>
+    <td><%=h (course.technology.tech + course.technology.version) %></td>
     <td><%= link_to 'Show', course %></td>
     <td><%= link_to 'Edit', edit_course_path(course) %></td>
     <td><%= link_to 'Destroy', course, :confirm => 'Are you sure?', :method => :delete %></td>

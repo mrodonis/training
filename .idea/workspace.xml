@@ -2,19 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98375846-8384-4939-9d76-553a708bf576" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_courselist.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_rightnav.html.erb" />
+      <change type="DELETED" beforePath="C:\Users\Mark\Documents\GitHub\training\db\migrate\20130622061022_create_technologies.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mark\Documents\GitHub\training\public\images\cisco-formatted.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mark\Documents\GitHub\training\public\images\img1-840x630.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mark\Documents\GitHub\training\public\images\img2-672x336.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mark\Documents\GitHub\training\public\images\img3-672x336.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mark\Documents\GitHub\training\public\images\microsoft-formatted.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_featured1.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_featured1.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_featured2.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_featured2.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_featured3.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_featured3.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_leftnav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_leftnav.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_maincontent.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_maincontent.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/cisco.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/cisco.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/courses.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/courses.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/technologies/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/technologies/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/index.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/technologies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/technologies/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/microsoft.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/microsoft.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/technologies/new.html.erb" afterPath="$PROJECT_DIR$/app/views/technologies/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/scheduled_classes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/scheduled_classes_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/show.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/technologies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/technologies/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/technologies.yml" afterPath="$PROJECT_DIR$/test/fixtures/technologies.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/technology.rb" afterPath="$PROJECT_DIR$/app/models/technology.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/vmware.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/vmware.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="training.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/technology.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372196479503" ignored="false" />
+    <file path="/technology.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372303263864" ignored="false" />
     <file path="/scheduled_class.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372194437514" ignored="false" />
     <file path="/course.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372194475754" ignored="false" />
     <file path="/topic.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372196460105" ignored="false" />
@@ -22,22 +50,34 @@
     <file path="/20130625211402_create_topics.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372195161449" ignored="false" />
     <file path="/20130613082544_create_courses.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372199524340" ignored="false" />
     <file path="/schema.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372197133023" ignored="false" />
-    <file path="/new.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372202071424" ignored="false" />
-    <file path="/show.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372198018043" ignored="false" />
-    <file path="/index.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372275591033" ignored="false" />
-    <file path="/edit.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372197651365" ignored="false" />
+    <file path="/new.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372308682084" ignored="false" />
+    <file path="/show.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372308492334" ignored="false" />
+    <file path="/index.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372350425876" ignored="false" />
+    <file path="/edit.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372308712486" ignored="false" />
     <file path="/development.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372201453595" ignored="false" />
     <file path="/Dummy.txt" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372259590268" ignored="false" />
-    <file path="/index.html" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372273030416" ignored="false" />
-    <file path="/_featured1.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276164512" ignored="false" />
-    <file path="/_featured2.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372271054917" ignored="false" />
-    <file path="/_featured3.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372271399285" ignored="false" />
-    <file path="/_leftnav.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276248471" ignored="false" />
+    <file path="/index.html" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372286720550" ignored="false" />
+    <file path="/_featured1.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372353023830" ignored="false" />
+    <file path="/_featured2.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372353542028" ignored="false" />
+    <file path="/_featured3.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372353044401" ignored="false" />
+    <file path="/_leftnav.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372370012076" ignored="false" />
     <file path="/_maincontent.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276422166" ignored="false" />
-    <file path="/pages_controller.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276401187" ignored="false" />
-    <file path="/application.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276032849" ignored="false" />
-    <file path="/_navigation.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276515986" ignored="false" />
-    <file path="/microsoft.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372276777036" ignored="false" />
+    <file path="/pages_controller.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372371401369" ignored="false" />
+    <file path="/application.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372278816792" ignored="false" />
+    <file path="/_navigation.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372370160672" ignored="false" />
+    <file path="/microsoft.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372358113741" ignored="false" />
+    <file path="/_rightnav.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372278647789" ignored="false" />
+    <file path="/all-css1.css" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372283444016" ignored="false" />
+    <file path="/technologies_controller.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372303616677" ignored="false" />
+    <file path="/scheduled_classes_controller.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372304403997" ignored="false" />
+    <file path="/courses_controller.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372309964113" ignored="false" />
+    <file path="/application_controller.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372312256862" ignored="false" />
+    <file path="/routes.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372351861787" ignored="false" />
+    <file path="/pages_helper.rb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372356559762" ignored="false" />
+    <file path="/cisco.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372369052363" ignored="false" />
+    <file path="/pages.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372368659147" ignored="false" />
+    <file path="/vmware.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372370213485" ignored="false" />
+    <file path="/_courselist.html.erb" changelist="98375846-8384-4939-9d76-553a708bf576" time="1372439067779" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,46 +102,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="29" selection-start="1884" selection-end="1884" vertical-scroll-proportion="-15.666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_featured1.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_featured1.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="54" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_featured2.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_featured2.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="40" selection-start="40" selection-end="43" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_featured3.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_featured3.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_maincontent.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_maincontent.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="118" selection-start="423" selection-end="423" vertical-scroll-proportion="-3.2692308">
+            <state line="98" column="35" selection-start="3611" selection-end="3611" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,16 +114,7 @@
       <file leaf-file-name="microsoft.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/microsoft.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="58" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="85" selection-start="566" selection-end="566" vertical-scroll-proportion="0.2319688">
+            <state line="0" column="0" selection-start="0" selection-end="84" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -128,8 +123,47 @@
       <file leaf-file-name="_navigation.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="142" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-10.461538">
+            <state line="62" column="134" selection-start="3549" selection-end="3549" vertical-scroll-proportion="-5.1538463">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vmware.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/vmware.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="74" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cisco.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/cisco.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="34" selection-end="80" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="52" selection-start="3547" selection-end="3547" vertical-scroll-proportion="-7.0588236">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_courselist.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_courselist.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="63" selection-start="568" selection-end="568" vertical-scroll-proportion="0.55852157">
+              <folding>
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,19 +171,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0">
+            <state line="9" column="45" selection-start="662" selection-end="662" vertical-scroll-proportion="-5.8846154">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="25" selection-start="5316" selection-end="5316" vertical-scroll-proportion="4.3333335">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#article#1;n#section#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -172,22 +195,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130613082544_create_courses.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130622044541_create_scheduled_classes.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/courses/new.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/all-css.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/views/pages/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_featured1.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_featured2.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_featured3.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_leftnav.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_maincontent.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_featured2.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/pages_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/courses.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/pages.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/cisco.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/microsoft.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_leftnav.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/vmware.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_courselist.html.erb" />
       </list>
     </option>
   </component>
@@ -307,11 +330,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,32 +381,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scheduled_classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,6 +442,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -432,6 +479,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -742,14 +793,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19010043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23314203" sideWeight="0.7702889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.7702889" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22971115" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -823,117 +874,118 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/courses_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/courses/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="49" selection-start="797" selection-end="797" vertical-scroll-proportion="-0.51111114">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/courses/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="30" selection-start="732" selection-end="732" vertical-scroll-proportion="0.6031128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/all-css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1555" column="70" selection-start="34029" selection-end="34029" vertical-scroll-proportion="0.73904383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/courses.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="461" selection-end="461" vertical-scroll-proportion="0.59342915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/discounts.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="29" selection-start="1884" selection-end="1884" vertical-scroll-proportion="-15.666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_featured1.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="54" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_featured2.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="40" selection-start="40" selection-end="43" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_leftnav.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="131" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.7172996">
+        <state line="17" column="54" selection-start="332" selection-end="332" vertical-scroll-proportion="0.56889766">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_featured3.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="25" selection-start="5316" selection-end="5316" vertical-scroll-proportion="4.3333335">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#article#1;n#section#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="142" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-10.461538">
+        <state line="12" column="130" selection-start="624" selection-end="624" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_maincontent.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="118" selection-start="423" selection-end="423" vertical-scroll-proportion="-3.2692308">
+        <state line="19" column="38" selection-start="733" selection-end="733" vertical-scroll-proportion="0.65252525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="54" selection-start="460" selection-end="460" vertical-scroll-proportion="0.4456929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/courses_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="79" selection-start="793" selection-end="793" vertical-scroll-proportion="0.4775281">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/pages_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0331384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="45" selection-start="662" selection-end="662" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/courses.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="54" selection-start="431" selection-end="431" vertical-scroll-proportion="0.41889116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/cisco.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="34" selection-end="80" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="52" selection-start="3547" selection-end="3547" vertical-scroll-proportion="-7.0588236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_leftnav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="99" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.8377823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="134" selection-start="3549" selection-end="3549" vertical-scroll-proportion="-5.1538463">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/microsoft.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.65384614">
+        <state line="0" column="0" selection-start="0" selection-end="84" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/vmware.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="74" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="85" selection-start="566" selection-end="566" vertical-scroll-proportion="0.2319688">
+        <state line="98" column="35" selection-start="3611" selection-end="3611" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_courselist.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="63" selection-start="568" selection-end="568" vertical-scroll-proportion="0.55852157">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

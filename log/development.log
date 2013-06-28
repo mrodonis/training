@@ -7246,3 +7246,147 @@ Rendering courses/index
   [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `discounts` WHERE (`discounts`.`id` = 1) [0m
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `technologies` WHERE (`technologies`.`id` = 1) [0m
 Completed in 149ms (View: 47, DB: 88) | 200 OK [http://localhost/courses]
+  [4;36;1mSQL (202.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTechnology Columns (1209.1ms)[0m   [0mSHOW FIELDS FROM `technologies`[0m
+  [4;36;1mTechnology Load (128.0ms)[0m   [0;1mSELECT * FROM `technologies` WHERE (`technologies`.`category` = 'Microsoft') [0m
+  [4;35;1mCourse Columns (160.0ms)[0m   [0mSHOW FIELDS FROM `courses`[0m
+  [4;36;1mCourse Load (56.0ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`technology_id` IN (1,2,4,5)) [0m
+  [4;36;1mSQL (149.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (707.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (715.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCourses (20130613082544)
+Migrating to CreateScheduledClasses (20130622044541)
+Migrating to CreateDiscounts (20130622060127)
+Migrating to CreateTechnologies (20130622061022)
+Migrating to AddVersionToTechnology (20130627035410)
+  [4;35;1mSQL (4611.2ms)[0m   [0mALTER TABLE `technologies` ADD `version` varchar(255)[0m
+  [4;36;1mSQL (292.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20130627035410')[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (344.0ms)[0m   [0;1mSHOW FIELDS FROM `courses`[0m
+  [4;35;1mSQL (99.0ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (35.0ms)[0m   [0mSHOW FIELDS FROM `discounts`[0m
+  [4;36;1mSQL (36.0ms)[0m   [0;1mdescribe `discounts`[0m
+  [4;35;1mSQL (57.0ms)[0m   [0mSHOW KEYS FROM `discounts`[0m
+  [4;36;1mSQL (49.0ms)[0m   [0;1mSHOW FIELDS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (26.0ms)[0m   [0mdescribe `scheduled_classes`[0m
+  [4;36;1mSQL (57.0ms)[0m   [0;1mSHOW KEYS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (49.0ms)[0m   [0mSHOW FIELDS FROM `technologies`[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mdescribe `technologies`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `technologies`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddVersionToTechnology (20130627035410)
+  [4;35;1mSQL (398.0ms)[0m   [0mALTER TABLE `technologies` DROP `version`[0m
+  [4;36;1mSQL (89.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20130627035410'[0m
+Migrating to CreateTechnologies (20130622061022)
+  [4;35;1mSQL (46.0ms)[0m   [0mDROP TABLE `technologies`[0m
+  [4;36;1mSQL (55.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20130622061022'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (44.0ms)[0m   [0;1mSHOW FIELDS FROM `courses`[0m
+  [4;35;1mSQL (28.0ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (34.0ms)[0m   [0mSHOW FIELDS FROM `discounts`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mdescribe `discounts`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `discounts`[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mSHOW FIELDS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mdescribe `scheduled_classes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `scheduled_classes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateDiscounts (20130622060127)
+  [4;35;1mSQL (111.0ms)[0m   [0mDROP TABLE `discounts`[0m
+  [4;36;1mSQL (80.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20130622060127'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (50.0ms)[0m   [0;1mSHOW FIELDS FROM `courses`[0m
+  [4;35;1mSQL (23.0ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (27.0ms)[0m   [0mSHOW FIELDS FROM `scheduled_classes`[0m
+  [4;36;1mSQL (24.0ms)[0m   [0;1mdescribe `scheduled_classes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `scheduled_classes`[0m
+  [4;36;1mSQL (23.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCourses (20130613082544)
+Migrating to CreateScheduledClasses (20130622044541)
+Migrating to CreateDiscounts (20130622060127)
+  [4;35;1mSQL (215.0ms)[0m   [0mCREATE TABLE `discounts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `discount_level` varchar(255), `percentage` float, `end_date` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (102.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20130622060127')[0m
+Migrating to CreateTechnologies (20130622061022)
+  [4;35;1mSQL (119.0ms)[0m   [0mCREATE TABLE `technologies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `tech` varchar(255), `category` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (81.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20130622061022')[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (34.0ms)[0m   [0;1mSHOW FIELDS FROM `courses`[0m
+  [4;35;1mSQL (28.0ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (34.0ms)[0m   [0mSHOW FIELDS FROM `discounts`[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mdescribe `discounts`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW KEYS FROM `discounts`[0m
+  [4;36;1mSQL (33.0ms)[0m   [0;1mSHOW FIELDS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (33.0ms)[0m   [0mdescribe `scheduled_classes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (67.0ms)[0m   [0mSHOW FIELDS FROM `technologies`[0m
+  [4;36;1mSQL (33.0ms)[0m   [0;1mdescribe `technologies`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW KEYS FROM `technologies`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTechnologies (20130622061022)
+  [4;35;1mSQL (37.0ms)[0m   [0mDROP TABLE `technologies`[0m
+  [4;36;1mSQL (79.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20130622061022'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (27.0ms)[0m   [0;1mSHOW FIELDS FROM `courses`[0m
+  [4;35;1mSQL (22.0ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (29.0ms)[0m   [0mSHOW FIELDS FROM `discounts`[0m
+  [4;36;1mSQL (27.0ms)[0m   [0;1mdescribe `discounts`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `discounts`[0m
+  [4;36;1mSQL (28.0ms)[0m   [0;1mSHOW FIELDS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (24.0ms)[0m   [0mdescribe `scheduled_classes`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `scheduled_classes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCourses (20130613082544)
+Migrating to CreateScheduledClasses (20130622044541)
+Migrating to CreateDiscounts (20130622060127)
+Migrating to CreateTechnologies (20130627044128)
+  [4;35;1mSQL (181.0ms)[0m   [0mCREATE TABLE `technologies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `tech` varchar(255), `version` varchar(255), `category` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (282.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20130627044128')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (227.0ms)[0m   [0;1mSHOW FIELDS FROM `courses`[0m
+  [4;35;1mSQL (29.0ms)[0m   [0mdescribe `courses`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW KEYS FROM `courses`[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mSHOW FIELDS FROM `discounts`[0m
+  [4;36;1mSQL (38.0ms)[0m   [0;1mdescribe `discounts`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW KEYS FROM `discounts`[0m
+  [4;36;1mSQL (34.0ms)[0m   [0;1mSHOW FIELDS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mdescribe `scheduled_classes`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `scheduled_classes`[0m
+  [4;35;1mSQL (236.0ms)[0m   [0mSHOW FIELDS FROM `technologies`[0m
+  [4;36;1mSQL (32.0ms)[0m   [0;1mdescribe `technologies`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `technologies`[0m

@@ -3,12 +3,14 @@
 <table>
   <tr>
     <th>Tech</th>
+    <th>Version</th>
     <th>Category</th>
   </tr>
 
 <% @technologies.each do |technology| %>
   <tr>
     <td><%=h technology.tech %></td>
+    <td><%=h technology.version %></td>
     <td><%=h technology.category %></td>
     <td><%= link_to 'Show', technology %></td>
     <td><%= link_to 'Edit', edit_technology_path(technology) %></td>

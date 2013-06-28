@@ -25,6 +25,11 @@ class ScheduledClassesController < ApplicationController
   # GET /scheduled_classes/new.xml
   def new
     @scheduled_class = ScheduledClass.new
+    @scheduled_class.instructor = "TBD"
+    @scheduled_class.location = "Live Anywhere"
+    @scheduled_class.start_date = Date.today
+    @scheduled_class.end_date = Date.today + 7
+
 
     respond_to do |format|
       format.html # new.html.erb

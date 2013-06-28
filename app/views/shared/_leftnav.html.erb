@@ -6,14 +6,30 @@
     <nav role="navigation" class="site-navigation secondary-navigation">
       <div class="menu-sidebar-menu-container">
         <ul id="menu-sidebar-menu" class="menu">
-          <li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="http://www.training-essentials.com/promotion.html">June 2013 Promotion</a></li>
-          <li id="menu-item-108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-108"><a href="microsoft.html">Microsoft</a></li>
-          <li id="menu-item-109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109"><a href="cisco.html">Cisco</a></li>
-          <li id="menu-item-110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110"><a href="vmware.html">VMware</a></li>
-          <li id="menu-item-111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a href="officeapps.html">MS Office / Apps Training</a></li>
-          <li id="menu-item-112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112"><a href="business.html">Business Skills (PMP, ITIL, etc.)</a></li>
-          <li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a href="prepaid.html">Pre-Paid Discount Packages</a></li>
-          <li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"><a href="schedule.pdf">Full Schedule &nbsp;&nbsp;-> &nbsp; Dec 2013</a></li>
+          <li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107">
+            <a href="/files/Promo2013.pdf">June 2013 Promotion</a>
+          </li>
+          <li id="menu-item-108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-108">
+            <%= link_to "Microsoft", {:controller => "pages", :action => "microsoft", :id => nil} %>
+          </li>
+          <li id="menu-item-109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109">
+            <%= link_to "Cisco", {:controller => "pages", :action => "cisco", :id => nil} %>
+          </li>
+          <li id="menu-item-110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110">
+            <%= link_to "VMware", {:controller => "pages", :action => "vmware", :id => nil} %>
+          </li>
+          <li id="menu-item-111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111">
+            <%= link_to "MS Office / Apps Training", {:controller => "pages", :action => "apps", :id => nil} %>
+          </li>
+          <li id="menu-item-112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112">
+            <%= link_to "Business Skills (PMP, ITIL, etc.)", {:controller => "pages", :action => "business", :id => nil} %>
+          </li>
+          <li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113">
+            <%= link_to "Pre-Paid Discount Packages", {:controller => "pages", :action => "prepaid", :id => nil} %>
+          </li>
+          <li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114">
+            <a href="/files/Schedule2013.pdf">Full Schedule &nbsp;&nbsp;-> &nbsp; Dec 2013</a>
+          </li>
         </ul>
       </div>
     </nav>

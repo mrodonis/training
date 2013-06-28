@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width" />
+<!--<meta name="viewport" content="width=device-width" />-->
 
 <title>Training Essentials | Quality Authorized Technical Training</title>
 
@@ -41,18 +41,20 @@ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!
  <div id="main" class="site-main clearfix" style="margin-top: 48px;">
   <div class="front-page-content-wrapper">
    <div class="front-page-content-main">
+     <% if (@featured_items) %>
     <div class="featured-content-wrapper">
      <div id="featured-content" class="featured-content clearfix">
      
      <!------------------------------- Featured Category Item #1 ------------------------------->
-       <% if (@featured_items) %>
+
            <%= render :partial => 'shared/featured1' %>
            <%= render :partial => 'shared/featured2' %>
            <%= render :partial => 'shared/featured3' %>
-       <% end %>
+
 
 <!------------------------------- Featured Category Item #3 END ------------------------------->
-</div></div>        	
+</div></div>
+     <% end %>
 
 
 <!------------------------------- FRONT PAGE CONTENT AREA!! ------------------------------->
@@ -85,8 +87,10 @@ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!
                 </div><!-- #content .site-content -->
 			</div><!-- #primary .content-area -->
 
-<!--------------------------------- RIGHT SIDE QUICK NAV - POSTS FOR VIDEOS / PICTURES / ETC. --------------------------------->			
-
+<!--------------------------------- RIGHT SIDE QUICK NAV - POSTS FOR VIDEOS / PICTURES / ETC. --------------------------------->
+  <% if @right_nav %>
+    <%=  render :partial => 'shared/rightnav' %>
+  <% end %>
 </div>
 <!-- END BOTTOM OF MIDDLE AREA -->
 

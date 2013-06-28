@@ -1,6 +1,6 @@
 <div class="header-main clearfix">
   <h1 class="site-title">
-    <%= image_tag "Training-Essentials_BLK.jpg", :alt => "Training Essentials", :size => "250x35" %><br />
+    <%= image_tag "Training-Essentials.jpg", :alt => "Training Essentials", :size => "250x35" %><br />
 
   </h1>
   <nav role="navigation" class="site-navigation primary-navigation">
@@ -11,36 +11,51 @@
     <div class="menu-main-menu-container">
       <ul id="menu-main-menu" class="menu">
         <li id="home-item" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
-          <a href="/index.html">Home</a>
+            <%= link_to "Home", {:controller => "pages", :action => "index"} %>
         </li>
         <li id="training-courses" class="menu-item menu-item-type-post_type menu-item-object-page">
           <a >Courses</a>
           <ul class="sub-menu">
-            <li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258">
-              <%=  link_to "Microsoft", {:controller => 'pages', :action => 'microsoft'} %>
+            <li id="microsoft-menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258">
+              <%=  link_to "Microsoft", {:controller => 'pages', :action => 'microsoft', :id => nil} %>
+<!--              < @microsoft_techs = Technology.find(:all, :select => 'DISTINCT tech') %>-->
+              <% @microsoft_techs = Technology.find_all_by_category("Microsoft").map { |a| a.tech }.uniq %>
+              <% if @microsoft_techs %>
+               <ul class="sub-menu">
+               <% @microsoft_techs.each do |list_item| %>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <%= link_to list_item, :controller => 'pages', :action => 'microsoft', :id => list_item %>
+                  </li>
+               <% end %>
+               </ul>
+              <% end %>
             </li>
-            <li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260">
-              <a href="cisco.html">Cisco</a>
-              <ul class="sub-menu">
-                <li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261">
-                  <a href="cisco/ccna.html">
-                    CCNA (Routing & Switching)
-                  </a>
-                </li>
-                <li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262">
-                  <a href="cisco/voice.html">
-                    Voice (CallManager, Unity, CCVP,...)
-                  </a>
-                </li>
-                <li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263">
-                  <a href="cisco/security-wireless.html">
-                    Security & Wireless
-                  </a>
-                </li>
-              </ul>
+            <li id="cisco-menu-items" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260">
+              <%=  link_to "Cisco", {:controller => 'pages', :action => 'cisco', :id => nil} %>
+              <% @cisco_techs = Technology.find_all_by_category("Cisco").map { |a| a.tech }.uniq %>
+              <% if @cisco_techs %>
+                  <ul class="sub-menu">
+                    <% @cisco_techs.each do |list_item| %>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                          <%= link_to list_item, :controller => 'pages', :action => 'cisco', :id => list_item %>
+                        </li>
+                    <% end %>
+                  </ul>
+              <% end %>
+
             </li>
-            <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265">
-              <a href="vmware.html">VMware</a>
+            <li id="vmware-menu-items" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265">
+              <%=  link_to "VMware", {:controller => 'pages', :action => 'vmware', :id => nil} %>
+              <% @vmware_techs = Technology.find_all_by_category("VMware").map { |a| a.tech }.uniq %>
+              <% if @vmware_techs %>
+                  <ul class="sub-menu">
+                    <% @vmware_techs.each do |list_item| %>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                          <%= link_to list_item, :controller => 'pages', :action => 'vmware', :id => list_item %>
+                        </li>
+                    <% end %>
+                  </ul>
+              <% end %>
             </li>
             <li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259">
               <a href="officeapps.html">Apps/End-User</a>

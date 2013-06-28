@@ -25,6 +25,11 @@ class CoursesController < ApplicationController
   # GET /courses/new.xml
   def new
     @course = Course.new
+    @course.duration ||= 5.00
+    @course.price ||= 2795.00
+    @course.discount_id ||= 1
+    @course.provider ||= "Benchmark Learning"
+
 
     respond_to do |format|
       format.html # new.html.erb

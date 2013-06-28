@@ -2,8 +2,10 @@
 
 one:
   tech: MyString
-  course: 
+  version: MyString
+  category: MyString
 
 two:
   tech: MyString
-  course: 
+  version: MyString
+  category: MyString

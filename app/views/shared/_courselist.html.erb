@@ -1,0 +1,21 @@
+<table style="font-size: 80%; width: 700px">
+  <tr>
+    <th>Number</th>
+    <th style="width:400px">Title</th>
+    <th>Duration</th>
+    <th>Price</th>
+    <th>Outline</th>
+    <th>Technology</th>
+  </tr>
+
+  <% @courses.each do |course| %>
+      <tr>
+        <td><%=h course.number %></td>
+        <td><%=h course.title %></td>
+        <td><%=h course.duration.to_s + " days" %></td>
+        <td><%=h "$" + number_with_precision((course.price * course.discount.percentage), :precision => 2).to_s  %></td>
+        <td><%=h link_to("Outline", ("/files/" + course.outline)) %></td>
+        <td><%=h course.technology.tech + " " + course.technology.version %></td>
+      </tr>
+  <% end %>
+</table>
